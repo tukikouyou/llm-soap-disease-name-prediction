@@ -1,0 +1,26 @@
+# Python 3.11.9
+# Core data handling
+pandas
+numpy
+openpyxl
+tqdm
+
+# NER (see also 02_ner/requirements_clinical_ner.txt)
+torch
+transformers[torch]
+datasets
+seqeval
+accelerate
+sentencepiece
+protobuf
+
+# LLM inference
+openai
+
+# Baseline and evaluation
+scikit-learn
+matplotlib
+
+# Statistical analysis (GEE)
+statsmodels
+tabulate

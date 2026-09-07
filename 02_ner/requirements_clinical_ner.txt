@@ -1,0 +1,11 @@
+torch
+transformers[torch]
+datasets
+seqeval
+scikit-learn
+pandas
+openpyxl
+numpy
+accelerate
+sentencepiece
+protobuf

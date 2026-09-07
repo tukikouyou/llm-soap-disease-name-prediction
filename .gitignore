@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------
+# Clinical data must never be committed to this repository.
+# ---------------------------------------------------------------
+data/
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.jsonl
+*.txt
+!requirements.txt
+!02_ner/requirements_clinical_ner.txt
+
+# Model weights and training output
+trained_clinical_ner_xlmr/
+runs/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Result directories
+results/
+result/
+ner_figures/
+baseline_free_text_results*/
+
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
